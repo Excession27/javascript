@@ -4,9 +4,7 @@ var arrayOfNames = ["Marko", "Darko", "Zarko", "Janko", "Veljko", "Zeljko", "Vas
 
 for (var i = 0; i < arrayOfNames.length; i++) {
     if (arrayOfNames[i] === nameToBeFound) {
-        console.log("You are in our database, " + nizOcena[i] + ".");
-    }
-    else {
-        console.log("Unfortunately, you are not in our database.");
+        console.log("You are in our database, " + arrayOfNames[i] + ".");
+
     }
 }
